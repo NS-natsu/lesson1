@@ -52,8 +52,8 @@
     var cylinderGeometory = new THREE.CylinderGerometory(0, 1, 8);
     var cylinderMaterial = new THREE.MeshPhongMaterial({ color: 0x0000ff });
     var cylinder = new THREE.Mesh(cylinerGeometory, cylinerMaterial);
-    //cylinder.position.set(1,1,0);
-    //scene.add(cylinder);
+    cylinder.position.set(1,1,0);
+    scene.add(cylinder);
   
     // 初回実行
     var update = function() {
